@@ -4,6 +4,9 @@
 
 ro.build.version.qcom=LA.UM.6.6.r1-04400-89xx.0
 
+# Custom OTA
+lineage.updater.uri=https://btbn.de/ota/api/v1/{device}/{type}/{incr}
+
 # Audio
 audio.deep_buffer.media=true
 audio.offload.buffer.size.kb=64
