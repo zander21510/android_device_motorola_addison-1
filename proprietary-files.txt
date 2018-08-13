@@ -428,6 +428,17 @@ vendor/lib/libqti-utils.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
 
+# IO Prefetcher
+lib/vendor.qti.hardware.iop@1.0.so
+lib/vendor.qti.hardware.iop@2.0.so
+vendor/bin/hw/vendor.qti.hardware.iop@1.0-service
+vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so
+vendor/lib/libqti-iopd-client.so
+vendor/lib/libqti-iopd.so
+vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so
+vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so
+
 # Qualcomm framework
 lib/libdiag_system.so
 lib/libqmi_cci_system.so
