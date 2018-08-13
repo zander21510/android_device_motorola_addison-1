@@ -413,6 +413,7 @@ vendor/lib/libqti-util.so
 vendor/lib/libqti-utils.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
+vendor/lib/hw/power.qcom.so
 
 # IO Prefetcher
 lib/vendor.qti.hardware.iop@1.0.so
