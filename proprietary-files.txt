@@ -271,6 +271,9 @@ vendor/lib/libssd.so
 vendor/lib/libStDrvInt.so
 vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so
 
+# Dropbox
+vendor/lib/libadropbox.so
+
 # Fingerprint
 lib/libcom_fingerprints_service.so
 lib/lib_fpc_tac_shared.so
