@@ -33,6 +33,8 @@ use.voice.path.for.pcm.voip=false
 ro.config.vc_call_vol_steps=8
 ro.config.media_vol_steps=25
 
+audio_hal.period_size=240
+
 # Bluetooth
 bluetooth.hfp.client=1
 qcom.bluetooth.soc=smd
@@ -109,6 +111,10 @@ ro.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
 persist.data.mode=concurrent
 
+# Time Service
+persist.timed.enable=true
+
+# Vendor Extension
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Sensors
