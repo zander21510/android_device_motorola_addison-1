@@ -595,8 +595,9 @@ on property:persist.env.fastdorm.enabled=true
     setprop persist.radio.data_no_toggle 1
 
 service cnd /system/vendor/bin/cnd
-    class main
+    class late_start
     user system
+    socket cnd stream 660 system inet
     group system wifi inet radio wakelock net_admin
 
 service irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
