@@ -450,6 +450,8 @@ vendor/lib/libsmemlog.so
 -app/QtiTelephonyService/QtiTelephonyService.apk
 etc/permissions/privapp-permissions-com.qualcomm.qcrilmsgtunnel.xml
 etc/permissions/qcrilhook.xml
+etc/powerhint.xml
+etc/sysconfig/qti_whitelist.xml
 framework/qcrilhook.jar
 framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
