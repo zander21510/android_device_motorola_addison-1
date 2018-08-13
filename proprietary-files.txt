@@ -411,8 +411,12 @@ vendor/lib/libOmxWmaDec.so
 # NFC
 vendor/firmware/libpn548ad_fw.so
 
-# Vendor extension
+# Perf
+lib/libqti_performance.so
+lib/libqti-perfd-client_system.so
+lib/vendor.qti.hardware.perf@1.0.so
 vendor/bin/energy-awareness
+vendor/bin/msm_irqbalance
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 vendor/lib/libqtigef.so
