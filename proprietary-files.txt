@@ -244,6 +244,7 @@ vendor/lib/vendor.display.color@1.0_vendor.so
 vendor/lib/vendor.display.postproc@1.0_vendor.so
 
 # DRM
+lib/libQTEEConnector_system.so
 lib/vendor.qti.hardware.qteeconnector@1.0.so
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/bin/qseecomd
@@ -258,10 +259,16 @@ vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libGPreqcancel.so
 vendor/lib/libGPreqcancel_svc.so
+vendor/lib/libmm-hdcpmgr.so
 vendor/lib/liboemcrypto.so
+vendor/lib/libqisl.so
 vendor/lib/libQSEEComAPI.so
+vendor/lib/libQTEEConnector_vendor.so
 vendor/lib/librpmb.so
+vendor/lib/libSecureUILib.so
+vendor/lib/libsecureui_svcsock.so
 vendor/lib/libssd.so
+vendor/lib/libStDrvInt.so
 vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so
 
 # Fingerprint
