@@ -143,6 +143,8 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.0-service.widevine \
     libprotobuf-cpp-lite
 
 # Ebtables
@@ -162,13 +164,21 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     libgnsspps \
-    libgnss \
+    lib:nss \
     android.hardware.gnss@1.0-impl-qti
+
+# health
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0-impl \
+    android.hardware.health@1.0-convert \
+    android.hardware.health@1.0-service
 
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.manager@1.0
+    android.hidl.base@1.0_system \
+    android.hidl.manager@1.0 \
+    android.hidl.manager@1.0-java
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/manifest.xml
@@ -318,7 +328,10 @@ PRODUCT_PACKAGES += \
     wificond \
     wifilogd \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    wifi_symlinks \
+    libnfnetlink \
+    libnetfilter_conntrack
 
 PRODUCT_COPY_FILES += \
     kernel/motorola/msm8953/drivers/staging/prima/firmware_bin/WCNSS_cfg.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_cfg.dat \
