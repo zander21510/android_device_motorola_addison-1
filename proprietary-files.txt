@@ -471,6 +471,7 @@ framework/qcrilhook.jar
 framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+vendor/bin/ipacm-diag
 vendor/bin/netmgrd
 vendor/bin/pm-proxy
 vendor/bin/pm-service
