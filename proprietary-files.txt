@@ -1,9 +1,14 @@
 # Proprietary files for addison
 
 # ADSP
+etc/firmware/vrgain.bin
+lib/libadspd.so
+vendor/bin/adspd
 vendor/bin/adsprpcd
 vendor/lib/libadsprpc.so
 vendor/lib/libadsp_default_listener.so
+vendor/lib/libfastcvopt.so
+vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libmdsprpc.so
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
