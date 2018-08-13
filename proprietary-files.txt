@@ -284,6 +284,9 @@ lib/libcom_fingerprints_service.so
 lib/lib_fpc_tac_shared.so
 vendor/lib/hw/fingerprint.msm8953.so
 
+# FM
+lib/fm_helium.so
+
 # GPS
 etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qualcomm.location.xml
