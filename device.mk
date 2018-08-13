@@ -257,6 +257,7 @@ PRODUCT_PACKAGES += \
     init.mmi.rc \
     init.mmi.usb.rc \
     init.qcom.rc \
+    init.qcom.power.rc \
     init.qcom.ril.sh \
     ueventd.rc \
     wlan_carrier_bin.sh
@@ -295,6 +296,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-addison.conf:system/etc/thermal-engine-addison.conf
 
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-service-qti \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service
 

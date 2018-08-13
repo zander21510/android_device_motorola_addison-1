@@ -586,6 +586,7 @@ vendor/lib/sensor_calibrate.so
 # Thermal
 vendor/bin/thermal-engine
 vendor/lib/hw/thermal.msm8953.so
+vendor/lib/hw/power.qcom.so
 vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 
