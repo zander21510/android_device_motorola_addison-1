@@ -581,6 +581,7 @@ vendor/lib/libtime_genoff.so
 # Touchscreen
 etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat
 etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat
+etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf
 
 # WCNSS
 vendor/etc/wifi/WCNSS_qcom_wlan_nv.bin:vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
