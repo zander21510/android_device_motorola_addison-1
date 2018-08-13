@@ -34,3 +34,6 @@
 # Sockets
 /dev/socket/adspdsock                                    u:object_r:adspd_socket:s0
 /dev/socket/cutback                                      u:object_r:cutback_socket:s0
+
+# adspd
+/data/adspd(/.*)?                                        u:object_r:adspd_file:s0

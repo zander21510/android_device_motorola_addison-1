@@ -11,6 +11,9 @@ type cutback_data_file, file_type, data_file_type;
 type adspd_socket, file_type;
 type cutback_socket, file_type;
 
+# adspd
+type adspd_file, file_type, data_file_type;
+
 # sysfs
 type sysfs_mmi_fp, fs_type, sysfs_type;
 type sysfs_mmi_laser, fs_type, sysfs_type;
