@@ -530,8 +530,10 @@ vendor/lib/libscvePanorama.so
 vendor/lib/libscvePanorama_lite.so
 
 # Sensors
+etc/permissions/com.motorola.hw.sensorhub.xml
 vendor/bin/motosh
 vendor/etc/firmware/sensorhubfw.bin
+vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib/hw/sensorhub.msm8953.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensorhub.so

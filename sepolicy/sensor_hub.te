@@ -4,3 +4,6 @@ init_daemon_domain(sensor_hub)
 
 allow sensor_hub sensors_device:chr_file rw_file_perms;
 set_prop(sensor_hub, motosh_prop)
+
+allow sensor_hub sensorhub_data_file:file { rw_file_perms create };
+allow sensor_hub sensorhub_data_file:dir { search open read write getattr add_name };
