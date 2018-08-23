@@ -63,6 +63,9 @@ TARGET_KERNEL_CONFIG := addison_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 LZMA_RAMDISK_TARGETS := recovery
 
+# Filesystems
+TARGET_EXFAT_DRIVER := exfat
+
 # Audio
 AUDIO_FEATURE_ENABLED_COMPRESS_VOIP := true
 AUDIO_FEATURE_ENABLED_EXTN_FORMATS := true
